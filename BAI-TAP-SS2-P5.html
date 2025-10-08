@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SS2-P5-BT</title>
+  </head>
+  <h3>1. Bài tập về các thẻ table và form</h3>
+  <p>Các thẻ table, form, input, th, td</p>
+  <style>
+    .table-bordered {
+      width: 100%;
+      border-collapse: collapse; /* Gộp đường viền */
+    }
+
+    .table-bordered th,
+    .table-bordered td {
+      border: 1px solid #000; /* Đường viền 1px màu đen */
+      padding: 4px 8px; /* Khoảng cách bên trong ô */
+      text-align: left;
+    }
+
+    .table-bordered th {
+      background-color: #f2f2f2; /* Màu nền tiêu đề */
+      font-weight: bold;
+    }
+    </style>
+    <h1>My Store</h1>
+
+  <table class="table-bordered">
+    <tr>
+        <th>STT</th>
+        <th>Hình ảnh</th>
+        <th>Tên</th>
+        <th>Giá bán</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><img src="https://www.favri.org.vn/images/anh_tinkhoahoc/Ca_chua.jpg"
+            alt="Cà chua"
+            width="10%"
+            height="10%"></td>
+            <td>Cà chua</td>
+            <td>2$</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><img src="https://product.hstatic.net/200000325223/product/sau_rieng_new-01_63392fbb5c3d449e913faebc332ae80f_7914731456f84bd195eeb1ea2e08886f_master.png"
+            alt="Sầu riêng"
+            width="10%"
+            height="10%"></td>
+            <td>Sầu riêng</td>
+            <td>5$</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><img src="https://product.hstatic.net/200000325223/product/xoai-01_e1334c093fb64fa7afc4b505b7d0586a_master.png"
+             alt="Ảnh"
+             width="10%"
+             height="10%"></td>
+        <td>Xoài</td>
+        <td>3$</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td><img src="duahau.jpg" alt="Ảnh"></td>
+        <td>Dưa hấu</td>
+        <td>4$</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td><img src="" alt="Ảnh"></td>
+        <td>Thanh long</td>
+        <td>6$</td>
+    </tr>
+    
+  </table>
+
+  <h3>2. Tạo form đặt phòng khách sạn</h3>
+  <form action="">
+    <p>
+        Họ và tên:
+        <input 
+        type="text"
+         name="hoten" 
+         id="hoten"
+         placeholder="nhập họ và tên...">
+    </p>
+</form>
+<form action="">
+    <p>Email:
+        <input type="email"
+        name="email"
+        id="email"
+        placeholder="nhập email...">
+    </p>
+</form>
+<form action="">
+<p>Số điện thoại:
+    <input type="tel"
+    name="sdt"
+    id="sdt"
+    placeholder="nhập số điện thoại...">
+</p>
+</form>
+
+<p>
+    Ngày nhận phòng:
+    <input type="text"
+    name="ngày nhận phòng"
+    id="ngày nhận phòng"
+    placeholder="dd/mm/yyyy">
+</p>
+</form>
+<form action="">
+    <p>
+        Giờ nhận phòng:
+        <input type="time"
+        name="giờ nhận phòng"
+        id="giờ nhận phòng">
+    </p>
+</form>
+<form action="">
+<p>Số điện thoại khách hàng:
+    <input type="tel"
+    name="sdt"
+    id="sdt"
+    placeholder="nhập số điện thoại...">
+</p>
+</form>
+<input type="submit" value="Đặt phòng" name="" id="">
+<h3>3. Tạo form mua xe</h3>
+<h1>Car Purchase Form</h1>
+<form action="">
+    <p>Name:
+        <input type="text"
+        name="name"
+        id="name"
+        placeholder="">
+    </p>
+</form>
+<form action="">
+    <p>Email:
+        <input type="text"
+        name="email"
+        id="email"
+        placeholder="">
+    </p>
+</form>
+<form action="">
+    <p>Phone:
+        <input type="tel"
+        name="phone"
+        id="phone"
+        placeholder="">
+    </p>
+</form>
+<form action="">
+    <p>Choose a Car:
+        <select name car id=" car">
+            <option value="toyota">Toyota</option>
+            <option value="camry">Camry</option>
+            <option value="honda">Honda</option>
+            <option value="lexus">Lexus</option>
+            <option value="bmw">BMW</option>
+        </select>
+    </p>
+</form>
+<form action="">
+    <p>Choose Color:
+        <select name="color" id="color">
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+    </p>
+</form>
+<input type="submit" value="Submit" name="" id="">
+    </body>
+
+</html>
