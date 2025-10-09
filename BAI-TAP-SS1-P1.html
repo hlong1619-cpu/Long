@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <style>
+      .table-bordered {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .table-bordered th,
+      .table-bordered td {
+        border: 1px solid #000;
+        padding: 8px 12px;
+        text-align: left;
+      }
+
+      .table-bordered th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="table-bordered">
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>tên mèo</th>
+          <th>tuổi</th>
+          <th>giới tính</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>mèo mun</td>
+          <td>2</td>
+          <td>mèo đực</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>mèo tam thể</td>
+          <td>3</td>
+          <td>mèo cái</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>mèo anh lông dài</td>
+          <td>4</td>
+          <td>mèo đực</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Tổng số mèo: 3</td>
+        </tr>
+      </tfoot>
+    </table>
+    <form>
+      <h3>Form dang nhap</h3>
+      <label for="usename">Ten dang nhap</label>
+      <input type="text" id="usename" name="usename" />
+    </form>
+    <form action="">
+      <h4>Ten nguoi dung va password</h4>
+      <input type="text" id="placeholder" placeholder="Enter your text..." />
+      <input
+        type="password"
+        name=""
+        id=""
+        placeholder="enteryour password2..."
+      />
+      <br />
+      <h4>Email va URL</h4>
+      <input type="email" name="" id="" placeholder="zenter your email..." />
+      <input type="url" name="" id="" placeholder="enter your url..." />
+      <input type="search" name="" id="" placeholder="enter your search..." />
+      <input type="number" name="" id="" placeholder="enter your number..." />
+      <input type="range" name="" id="" /><br />
+      <h4>Điện thoại</h4>
+      <input
+        type="tel"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]-{3}"
+        name=""
+        id=""
+        placeholder="enter your telephone..."
+      /><br />
+      <h4>Ngày tháng</h4>
+      <input type="date" name="" id="" />
+      <input type="month" name="" id="" />
+      <input type="week" name="" id="" />
+      <input type="time" name="" id="" />
+      <input type="datetime-local" name="" id="" />
+      <input type="button" value="click me" />
+      <input type="submit" value="submit" />
+      <input type="reset" value="reset" />
+      <input type="text" name="" id="" disabled /><br />
+      <label><input type="radio" name="gender" value="male" />Nam</label>
+      <label><input type="radio" name="gender" value="female" />Nu</label><br />
+      <h4>Hộp tùy chọn</h4>
+      <ol>
+        <li><input type="checkbox" name="hobby" value="reading" /> doc sach</li>
+        <li>
+          <input type="checkbox" name="hobby" value="traveling" /> Du lich
+        </li>
+        <li><input type="checkbox" name="hobby" value="music" /> Nghe nhac</li>
+      </ol>
+      <h4>Select, option</h4>
+      <select name="hobby" multiple>
+        <option value="reading">doc sach</option>
+        <option value="music">nghe nhac</option>
+        <option value="gaming">choi game</option>
+        <option value="vip" disabled>chi danh cho vip</option>
+      </select>
+      <option value="texta">text area</option>
+    </form>
+  </body>
+</html>
+        <textarea name="texta" id="texta" cols="30" rows="10"></textarea>
+        <form action="">
+          <h4>File</h4>
+          <input type="file" name="file" id="file" />
+        </form>
+      </body>
+    </form>
+    <table class="table-bordered">
+      <tr>
+        <th>STT</th>
+        <th>Họ và tên</th>
+        <th>Tuổi</th>
+        <th>Quê quán</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Nguyễn Văn A</td>
+        <td>20</td>
+        <td>Hà Nội</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Trần Thị B</td>
+        <td>22</td>
+        <td>Hồ Chí Minh</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Lê Văn C</td>
+        <td>21</td>
+        <td>Đà Nẵng</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Phạm Thị D</td>
+        <td>23</td>
+        <td>Hải Phòng</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Vũ Văn E</td>
+        <td>24</td>
+        <td>Cần Thơ</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Đỗ Thị F</td>
+        <td>25</td>
+        <td>Huế</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Hoàng Văn G</td>
+        <td>26</td>
+        <td>Nghệ An</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Trịnh Thị H</td>
+        <td>27</td>
+        <td>Quảng Ninh</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Ngô Văn I</td>
+        <td>28</td>
+        <td>Thái Bình</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Phan Thị K</td>
+        <td>29</td>
+        <td>Bình Dương</td>
+      </tr>
+    </table>
+    <form>
+        <form>
+        <h3>HTML Entity</h3>
+        <p>&lt; &nbsp;  &gt;  &nbsp; &amp; &nbsp;&quot;&nbsp; &apos;&nbsp; &#8704;&nbsp; &copy;&nbsp; &#169;</p>
+        </form>
