@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.buttom {
+  width: 200px;
+  height: 70px;
+  border-top: 10px solid red;
+  border-right: 12px dotted rebeccapurple;
+  border-bottom: 8px double greenyellow;
+  border-left: 20px groove rgb(13, 0, 128);
+  margin: 30px 30px;
+  font-size: 30px;
+}
